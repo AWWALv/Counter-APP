@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   display: grid;
+   place-items: center;
+   margin-top: 0em;
+   background-image: url(./IMG_1116.JPG);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   background-position: bottom ;
+}
+section{
+    border: 1px solid rgb(221, 216, 216);
+    padding: 5em 2em;
+    border-radius: 20px;
+    background-color: rgb(254, 255, 247);
+    box-shadow: 4px 4px 8px rgb(221, 216, 216);
+}
+h1{
+    color:darkgreen;
+    font-weight: 900;
+    text-align: center;
+}
+h2{
+    color: coral;
+}
+p{
+    text-align: center;
+    color: darkgreen;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+#count-el{
+    text-align: center;
+    margin-top: 0.5em;
+
+}
+.btn-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+button{
+    padding: 1em 0em;
+    margin: 1em 0em;
+    width: 12em;
+    border-radius: 20px;
+    font-size: 0.7em;
+    border: none;
+    
+}
+button:hover{
+    box-shadow: 4px 4px 8px gray;
+}
+#increment-btn{
+    background-color: cornflowerblue;
+    color: white;
+    
+}
+#save-btn{
+    background-color: rgb(31, 145, 107);
+    color: white;
+}
